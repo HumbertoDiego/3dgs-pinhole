@@ -1021,14 +1021,14 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        // params.get("url") || "train.splat",
-        //"https://huggingface.co/cakewalk/splat-data/resolve/main/train.splat",
-        "https://github.com/HumbertoDiego/3dgs-pinhole/raw/refs/heads/main/static/model.splat?download=",
+        params.get("url") || "static/model.splat",
+        // "https://huggingface.co/cakewalk/splat-data/resolve/main/train.splat",
+        "https://github.com/HumbertoDiego/3dgs-pinhole/tree/main/",
     );
 
     const req = await fetch(url, {
-        mode: "cors", // no-cors, *cors, same-origin
-        credentials: "omit", // include, *same-origin, omit
+        mode: "no-cors", // no-cors, *cors, same-origin
+        credentials: "same-origin", // include, *same-origin, omit
     });
 
     console.log(req);
