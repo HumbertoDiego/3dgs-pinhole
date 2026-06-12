@@ -37,7 +37,7 @@ Usage:
 python train.py -s ../data_path --use_pinhole
 ```
 
-Example with phogramteric data:
+Example with photogrammetry data:
 
 https://HumbertoDiego.github.io/3dgs-pinhole
 
