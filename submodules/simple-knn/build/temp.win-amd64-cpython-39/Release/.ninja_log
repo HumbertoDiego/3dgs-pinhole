@@ -1,0 +1,4 @@
+# ninja log v6
+7	8998	8021279852947328	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-39/Release/ext.obj	c9cc71776e8f2b87
+9	10063	8021279852947328	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-39/Release/simple_knn.obj	e0fd86b94f6a698
+14	27202	8021279852999657	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-39/Release/spatial.obj	5cd354393b6979c0

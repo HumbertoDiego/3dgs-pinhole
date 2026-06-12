@@ -1,0 +1,7 @@
+# ninja log v6
+16	10962	7728548792254659	D:/Mestrado/Dissertation/labs/new-3dgs/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/ext.obj	46bbe9b5c669d02e
+19	11161	7728548792284514	D:/Mestrado/Dissertation/labs/new-3dgs/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/simple_knn.obj	43eadb92746dfdf9
+23	34757	7728548792324499	D:/Mestrado/Dissertation/labs/new-3dgs/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/spatial.obj	d4a9e3b7cfbcaf60
+34	9015	8021902523321186	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/ext.obj	8dd0013f474d92e2
+37	9790	8021902523336235	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/simple_knn.obj	d5b1e2da166c8da3
+41	27380	8021902523389211	D:/Diego/labs/extended-3dgs/3DGS-pinhole/submodules/simple-knn/build/temp.win-amd64-cpython-312/Release/spatial.obj	4526aceeb992b12a
