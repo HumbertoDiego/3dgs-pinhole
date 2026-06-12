@@ -37,12 +37,16 @@ Usage:
 python train.py -s ../data_path --use_pinhole
 ```
 
+Example with phogramteric data:
+
+https://HumbertoDiego.github.io/3dgs-pinhole
+
 <!-- 
 git init
-git remote add 3dgs https://github.com/HumbertoDiego/extended-3dgs
+git remote add 3dgs https://github.com/HumbertoDiego/3dgs-pinhole
 git pull 3dgs main
 # Do and push changes:
-git add * ; git commit -m "run final"; git push -u 3dgs main
+git add * ; git commit -m "run final"; git push -u 3dgs main --force
 #Pull changes
 git pull origin main 
  -->
