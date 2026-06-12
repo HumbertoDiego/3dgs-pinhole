@@ -1006,10 +1006,8 @@ void main () {
 
 `.trim();
 
-let defaultViewMatrix = [
-    0.47, 0.04, 0.88, 0, -0.11, 0.99, 0.02, 0, -0.88, -0.11, 0.47, 0, 0.07,
-    0.03, 6.55, 1,
-];
+let defaultViewMatrix = [-0.13,-0.61,0.78,0,0.98,-0.09,0.1,0,0,0.79,0.62,0,2.8,-1.84,5.76,1]
+// [  0.47, 0.04, 0.88, 0, -0.11, 0.99, 0.02, 0, -0.88, -0.11, 0.47, 0, 0.07, 0.03, 6.55, 1,];
 let viewMatrix = defaultViewMatrix;
 async function main() {
     let carousel = true;
@@ -1021,14 +1019,14 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "static/model.splat",
+        // params.get("url") || "gentiburcio.splat",
         // "https://huggingface.co/cakewalk/splat-data/resolve/main/train.splat",
-        "https://github.com/HumbertoDiego/3dgs-pinhole/tree/main/",
+        "https://huggingface.co/datasets/HumbertoDiego/splats/resolve/main/gentiburcio.splat",
     );
 
     const req = await fetch(url, {
-        mode: "no-cors", // no-cors, *cors, same-origin
-        credentials: "same-origin", // include, *same-origin, omit
+        mode: "cors", // no-cors, *cors, same-origin
+        credentials: "omit", // include, *same-origin, omit
     });
 
     console.log(req);
