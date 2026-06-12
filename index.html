@@ -1021,8 +1021,9 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "train.splat",
-        "https://huggingface.co/cakewalk/splat-data/resolve/main/",
+        // params.get("url") || "train.splat",
+        //"https://huggingface.co/cakewalk/splat-data/resolve/main/train.splat",
+        "https://github.com/HumbertoDiego/3dgs-pinhole/raw/refs/heads/main/static/model.splat?download=",
     );
 
     const req = await fetch(url, {
